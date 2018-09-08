@@ -1,0 +1,121 @@
+# Hostname (and path) to the root.
+baseURL = "https://kshitij10496.github.io/"
+
+# Enable to turn relative URLs into absolute.
+canonifyURLs = true
+
+# The directory from where Hugo reads content files.
+contentDir = "content"
+
+# The directory from where Hugo reads data files.
+dataDir = "data" 
+
+# The default content language.
+defaultContentLanguage = "en"
+
+# Enable rendering of emojis
+enableEmoji = true
+
+# The site’s language code used to generate RSS.
+languageCode = "en"
+
+# The directory from where Hugo reads layouts (templates).
+layoutDir = "layouts"
+
+# Default number of pages per page in pagination.
+paginate = 12
+
+# The directory to where Hugo will write the final static site (the HTML files etc.).
+publishDir = "public"
+
+# Color-theme or style for syntax highlighting.
+pygmentsStyle = "bw"
+
+# Enable code fence background highlighting.
+pygmentsCodeFences = true
+
+# Enable syntax guessing for code fences without specified language.
+pygmentsCodeFencesGuessSyntax = true
+
+# A directory or a list of directories from where Hugo reads static files.
+staticDir = "static"
+
+# The directory where Hugo reads the themes from.
+themesDir = "themes"
+
+# Theme to use (located by default in /themes/THEMENAME/).
+theme = "coder"
+
+# Site title.
+title = "kshitij10496" 
+
+disqusShortname = "kshitij10496" # Enable or disable Disqus.
+
+
+[permalinks]
+    posts = "posts/:slug/"
+    default = ":slug/"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[params] # theme parameters
+    author = "Kshitij Saraogi" # Author's name.
+    info = "Software Developer" # Author's job title or info.
+    description = "Kshitij Saraogi's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+    logo = "images/logo.svg"
+    footercontent = "Hello Friend" # Add footer content
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # RTL support
+    rtl = false
+
+    # Social links
+    [[params.social]]
+        name = "Github"
+	icon = "fab fa-github fa-2x"
+        weight = 1
+        url = "https://github.com/kshitij10496/"
+    [[params.social]]
+        name = "Twitter"
+	icon = "fab fa-twitter fa-2x"
+        weight = 2
+        url = "https://twitter.com/kshitij10496/"
+    [[params.social]]
+        name = "LinkedIn"
+	icon = "fab fa-linkedin fa-2x"
+        weight = 3
+        url = "https://www.linkedin.com/in/kshitij10496/"
+    [[params.social]]
+        name = "Instagram"
+	icon = "fab fa-instagram fa-2x"
+        weight = 4
+        url = "https://www.instagram.com/kshitij10496/"
+   [[params.social]]
+	name = "Medium"
+	icon = "fab fa-medium fa-2x"
+	weight = 5
+	url = "https://medium.com/@kshitij10496"
+ 
+    # Menu links
+    [[menu.main]]
+        name = "Blog"
+        weight = 1
+        url  = "/posts/"
+    [[menu.main]]
+        name = "About"
+        weight = 2
+        url = "/about/"
+    [[menu.main]]
+        name = "Values"
+        weight = 3
+        url = "/values/"
