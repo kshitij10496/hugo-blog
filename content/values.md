@@ -6,19 +6,19 @@ slug = "values"
 title = "Values"
 +++
 
-| | **Facilitate the success of those around you**   
-| | **90% honesty is *always* the best policy**  
-| | **Take decisions you can live with**   
-| | **Communicate nonviolently**  
+| | **Facilitate the success of those around you**  
+| | **Honesty is always the best policy**  
+| | **Pragmatism over Perfection**  
+| | **Be responsible for today**  
 | | **Love some randomness**  
 | | **Grow Inside-Out**  
 | | **Be Mindful**  
 | | **Seek Discomfort**  
-| | **Do not fear mistakes**  
-| | **Pragmatism over Perfection**  
+| | **Communicate nonviolently**  
+| | **Do not fear making mistakes**  
 | | **Failure empowers you to help others**  
 | | **Success is about living a purposeful life**  
-| | **Focus on *process* – results eventually follow**  
+| | **Focus on process – results eventually follow**
 
 **Inspirations**
 

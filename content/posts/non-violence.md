@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2018-11-28T20:14:30+05:30
-title = "Case for being Non-violence"
+title = "Case for Non-violence"
 slug = "on-non-violence" 
 tags = []
 categories = []
