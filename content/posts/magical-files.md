@@ -6,7 +6,6 @@ slug = "magical-files"
 tags = ["unix", "osx", "linux"]
 categories = ["Project", "Software"]
 externalLink = ""
-series = []
 +++
 
 

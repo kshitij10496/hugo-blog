@@ -5,7 +5,6 @@ description = ""
 draft = true
 slug = "habits"
 title = "Habits"
-
 +++
 
 # Chapter 04: Keystone Habits
