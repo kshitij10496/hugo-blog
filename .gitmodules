@@ -22,3 +22,6 @@
 [submodule "themes/hugo-theme-basic"]
 	path = themes/hugo-theme-basic
 	url = https://github.com/siegerts/hugo-theme-basic.git
+[submodule "themes/tufte"]
+	path = themes/tufte
+	url = https://github.com/shawnohare/hugo-tufte.git
