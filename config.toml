@@ -27,7 +27,7 @@ languageCode = "en-us"
 layoutDir = "layouts"
 
 # Default number of pages per page in pagination.
-paginate = 18
+paginate = 13
 
 # The directory to where Hugo will write the final static site (the HTML files etc.).
 publishDir = "public"
@@ -51,11 +51,7 @@ themesDir = "themes"
 theme = "coder"
 
 # Site title.
-title = "Blog | kxsh"
-
-disqusShortname = "kshitij10496" # Enable or disable Disqus.
-
-googleAnalytics = "UA-125667904-1" # Google Analytics
+title = "kxsh"
 
 [permalinks]
     posts = "posts/:slug/"
@@ -69,15 +65,18 @@ googleAnalytics = "UA-125667904-1" # Google Analytics
     author = "KSHITIJ SARAOGI" # Author's name.
     info = "MINIMALIST SOFTWARE DEVELOPER" # Author's job title or info.
     description = "Kshitij Saraogi's personal website" # Site description.
-    keywords = "blog,developer,personal,minimal" # Site keywords.
+    keywords = "blog,developer,personal,minimal,software,engineer,mathematics" # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optional avatar in the static folder.
     favicon_32 = "images/favicon_32.png"
     favicon_16 = "images/favicon_16.ico"
-    footercontent = "Hello Friend" # Add footer content
+
+    # hideFooter = true
+    # footercontent = "Hello Friend" # Add footer content
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = false
     hideCopyright = false
+    since = 2016
 
     # Custom CSS
     custom_css = []
@@ -85,40 +84,54 @@ googleAnalytics = "UA-125667904-1" # Google Analytics
     # RTL support
     rtl = false
 
+    colorscheme = "auto"
+
+    enableTwemoji = true
+
+    [utterances]
+      repo = "kshitij10496/kshitij10496.github.io" # https://utteranc.es/#heading-repository
+      issueTerm = "title" # https://utteranc.es/#heading-mapping
+      label = "Comment" # https://utteranc.es/#heading-issue-label
+      theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
+
     # Social links
     [[params.social]]
-        name = "Github"
-	    icon = "fab fa-github fa-2x"
-        weight = 1
-        url = "https://github.com/kshitij10496/"
+      name = "Github"
+      icon = "fa fa-github fa-2x"
+      weight = 1
+      url = "https://github.com/kshitij10496/"
     [[params.social]]
-        name = "Twitter"
-	    icon = "fab fa-twitter fa-2x"
-        weight = 3
-        url = "https://twitter.com/kshitij10496/"
+      name = "Twitter"
+      icon = "fa fa-twitter fa-2x"
+      weight = 2
+      url = "https://twitter.com/kshitij10496/"
     [[params.social]]
-        name = "LinkedIn"
-	    icon = "fab fa-linkedin fa-2x"
-        weight = 4
-        url = "https://www.linkedin.com/in/kshitij10496/"
+      name = "LinkedIn"
+      icon = "fa fa-linkedin fa-2x"
+      weight = 3
+      url = "https://www.linkedin.com/in/kshitij10496/"
 
     # Menu links
     [[menu.main]]
-        name = "ABOUT"
-        weight = 1
-        url = "/about/"
+      name = "ABOUT"
+      weight = 1
+      url = "/about/"
     [[menu.main]]
-        name = "POSTS"
-        weight = 2
-        url  = "/posts/"
+      name = "POSTS"
+      weight = 2
+      url  = "/posts/"
     [[menu.main]]
-        name = "NOW"
-        weight = 3
-        url = "/now/"
+      name = "NOW"
+      weight = 3
+      url = "/now/"
     [[menu.main]]
-        name = "RÉSUMÉ"
-        weight = 4
-        url = "https://drive.google.com/file/d/1-PqZNNRAuCvtquXWbgvBFEyrTRDwesKV/view?usp=sharing"
+      name = "RÉSUMÉ"
+      weight = 4
+      url = "https://drive.google.com/file/d/1-PqZNNRAuCvtquXWbgvBFEyrTRDwesKV/view?usp=sharing"
+    [[menu.main]]
+      name = "RSS"
+      weight = 5
+      url = "https://kshitij10496.github.io/index.xml"
 
 [privacy]
   [privacy.disqus]
